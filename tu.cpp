@@ -43,27 +43,6 @@ char DeQueue(LinkQueue &q)
   q.Front->next=p->next;
   return e;
 }
-void InputQueue(LinkQueue &q)
-{
-  char e,c ;
-  while(1)
-  {
-   cout<<"请输入队列元素："<<endl;
-   cin>>e;
-   if(e=='!')break;
-   EnQueue(q,e);
-  }
-}
-void outputQueue(LinkQueue q)
-{
- do
-  {
-    char e;
-    e=q.Front->next->data;
-    q.Front=q.Front->next;
-    cout<<e<<" ";
-  }while(q.Front->next!=NULL);
-}
 void InitGraph(Graph &g, int n)
 {
    g.vexnum=0;
