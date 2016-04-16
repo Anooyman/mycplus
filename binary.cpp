@@ -78,7 +78,6 @@ int main()
 {
     BiTree t,c;
     int i;
-    char e;
     c=new BiTNode;
     c->date='f';
     CreatBiTree(t);

@@ -37,7 +37,7 @@ char DeQueue(LinkQueue q)
 }
 void InputQueue(LinkQueue &q)
 {
-  char e,c ;
+  char e;
   while(1)
   {
    cout<<"请输入队列元素："<<endl;
@@ -61,6 +61,6 @@ int main()
     LinkQueue p;
     InitQueue(p);
     InputQueue(p);
-    outputQueue(p);S
+    outputQueue(p);
     return 0;
 }

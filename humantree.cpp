@@ -54,7 +54,7 @@ void HuffmanCreate(BiTree &HT,double *w,int n)
 }
 void HuffmanCode(BiTree &HT,char HC[][100],double *w,int n)
 {
-	int m,i,s1,s2,start;
+	int i,start;
     int c,f;
 	char *cd;
     cd=new char[n];
