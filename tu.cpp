@@ -75,7 +75,7 @@ void creatGraph(Graph &g , int n)
   {
     char e1,e2;
     cin>>e1>>e2;
-    if(e1=='!'and e1=='!')break;
+    if(e1=='!' and e1=='!')break;
     for(int x=0;x<n;x++)
     {
       if(g.vexs[x]==e1)
