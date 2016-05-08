@@ -3,155 +3,169 @@
 !_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
-!_TAG_PROGRAM_VERSION	5.8	//
-ALLOCATION	Dijkstra.cpp	/^int ALLOCATION[MAXPROCESS][MAXRESOURCE];$/;"	v	language:C++
-AVAILABLE	Dijkstra.cpp	/^int AVAILABLE[MAXRESOURCE];$/;"	v	language:C++
-AdjMatrix	tu.cpp	/^  int AdjMatrix[Maxsize][Maxsize];$/;"	m	language:C++	struct:__anon3	file:	access:public
-Bank	Dijkstra.cpp	/^void Bank()$/;"	f	language:C++	signature:()
-BiTNode	binary.cpp	/^typedef struct BiTNode$/;"	s	language:C++	file:
-BiTNode	binary.cpp	/^}BiTNode,*BiTree;$/;"	t	language:C++	typeref:struct:BiTNode	file:
-BiTNode	humantree.cpp	/^typedef struct BiTNode{$/;"	s	language:C++	file:
-BiTNode	humantree.cpp	/^}BiTNode,*BiTree;$/;"	t	language:C++	typeref:struct:BiTNode	file:
-BiTNode::date	binary.cpp	/^   char date;$/;"	m	language:C++	struct:BiTNode	file:	access:public
-BiTNode::date	humantree.cpp	/^    char date;$/;"	m	language:C++	struct:BiTNode	file:	access:public
-BiTNode::lchild	binary.cpp	/^   struct BiTNode *lchild,*rchild;$/;"	m	language:C++	struct:BiTNode	typeref:struct:BiTNode::BiTNode	file:	access:public
-BiTNode::lchild	humantree.cpp	/^    int parent,lchild,rchild;$/;"	m	language:C++	struct:BiTNode	file:	access:public
-BiTNode::parent	humantree.cpp	/^    int parent,lchild,rchild;$/;"	m	language:C++	struct:BiTNode	file:	access:public
-BiTNode::rchild	binary.cpp	/^   struct BiTNode *lchild,*rchild;$/;"	m	language:C++	struct:BiTNode	typeref:struct:BiTNode::	file:	access:public
-BiTNode::rchild	humantree.cpp	/^    int parent,lchild,rchild;$/;"	m	language:C++	struct:BiTNode	file:	access:public
-BiTNode::weight	humantree.cpp	/^    double  weight;$/;"	m	language:C++	struct:BiTNode	file:	access:public
-BiTree	binary.cpp	/^}BiTNode,*BiTree;$/;"	t	language:C++	typeref:struct:BiTNode	file:
-BiTree	humantree.cpp	/^}BiTNode,*BiTree;$/;"	t	language:C++	typeref:struct:BiTNode	file:
-Choosemin	humantree.cpp	/^int Choosemin(BiTree t,int i)$/;"	f	language:C++	signature:(BiTree t,int i)
-ClearQueue	queue.h	/^void ClearQueue(LinkQueue &HQ)$/;"	f	language:C++	signature:(LinkQueue &HQ)
-CreatBiTree	binary.cpp	/^void CreatBiTree(BiTree &t)$/;"	f	language:C++	signature:(BiTree &t)
-DeQueue	queue.cpp	/^char DeQueue(LinkQueue q)$/;"	f	language:C++	signature:(LinkQueue q)
-DeQueue	tu.cpp	/^char DeQueue(LinkQueue &q)$/;"	f	language:C++	signature:(LinkQueue &q)
-DepthBiTree	binary.cpp	/^int DepthBiTree(BiTree t)$/;"	f	language:C++	signature:(BiTree t)
-ElemType	queue.h	/^typedef job ElemType;$/;"	t	language:C++
-EmptyQueue	queue.h	/^bool EmptyQueue(LinkQueue &HQ)$/;"	f	language:C++	signature:(LinkQueue &HQ)
-EnQueue	queue.cpp	/^void EnQueue(LinkQueue &q,char e)$/;"	f	language:C++	signature:(LinkQueue &q,char e)
-EnQueue	queue.h	/^void EnQueue(LinkQueue &HQ , ElemType item)$/;"	f	language:C++	signature:(LinkQueue &HQ , ElemType item)
-EnQueue	tu.cpp	/^void EnQueue(LinkQueue &q,char e)$/;"	f	language:C++	signature:(LinkQueue &q,char e)
-FINISH	Dijkstra.cpp	/^bool FINISH[MAXPROCESS];$/;"	v	language:C++
-Front	queue.cpp	/^  QueuePtr Front;$/;"	m	language:C++	struct:__anon1	file:	access:public
-Front	tu.cpp	/^  QueuePtr Front;$/;"	m	language:C++	struct:__anon4	file:	access:public
-Graph	tu.cpp	/^}Graph;$/;"	t	language:C++	typeref:struct:__anon3	file:
-HuffmanCode	humantree.cpp	/^void HuffmanCode(BiTree &HT,char HC[][100],double *w,int n)$/;"	f	language:C++	signature:(BiTree &HT,char HC[][100],double *w,int n)
-HuffmanCreate	humantree.cpp	/^void HuffmanCreate(BiTree &HT,double *w,int n)$/;"	f	language:C++	signature:(BiTree &HT,double *w,int n)
-Init	Dijkstra.cpp	/^void Init()$/;"	f	language:C++	signature:()
-InitBiTree	binary.cpp	/^void InitBiTree (BiTree &t)$/;"	f	language:C++	signature:(BiTree &t)
-InitGraph	tu.cpp	/^void InitGraph(Graph &g, int n)$/;"	f	language:C++	signature:(Graph &g, int n)
-InitQueue	queue.cpp	/^void InitQueue(LinkQueue &q)$/;"	f	language:C++	signature:(LinkQueue &q)
-InitQueue	queue.h	/^void InitQueue(LinkQueue &HQ)$/;"	f	language:C++	signature:(LinkQueue &HQ)
-InitQueue	tu.cpp	/^void InitQueue(LinkQueue &q)$/;"	f	language:C++	signature:(LinkQueue &q)
-InputQueue	queue.cpp	/^void InputQueue(LinkQueue &q)$/;"	f	language:C++	signature:(LinkQueue &q)
-InsertChild	binary.cpp	/^void InsertChild(BiTree &p,BiTree &c,int i)$/;"	f	language:C++	signature:(BiTree &p,BiTree &c,int i)
-LNode	queue.h	/^struct LNode$/;"	s	language:C++
-LNode::data	queue.h	/^	ElemType data;$/;"	m	language:C++	struct:LNode	access:public
-LNode::next	queue.h	/^	LNode *next;$/;"	m	language:C++	struct:LNode	access:public
-LinkQueue	queue.cpp	/^}LinkQueue;$/;"	t	language:C++	typeref:struct:__anon1	file:
-LinkQueue	queue.h	/^struct LinkQueue$/;"	s	language:C++
-LinkQueue	tu.cpp	/^}LinkQueue;$/;"	t	language:C++	typeref:struct:__anon4	file:
-LinkQueue::front	queue.h	/^	LNode *front;   \/\/对首指针$/;"	m	language:C++	struct:LinkQueue	access:public
-LinkQueue::rear	queue.h	/^	LNode *rear;    \/\/对尾指针$/;"	m	language:C++	struct:LinkQueue	access:public
-MAX	Dijkstra.cpp	/^int MAX[MAXPROCESS][MAXRESOURCE];$/;"	v	language:C++
-MAXPROCESS	Dijkstra.cpp	8;"	d	language:C++	file:
-MAXRESOURCE	Dijkstra.cpp	9;"	d	language:C++	file:
-Maxsize	tu.cpp	2;"	d	language:C++	file:
-NEED	Dijkstra.cpp	/^int NEED[MAXPROCESS][MAXRESOURCE];$/;"	v	language:C++
-OutQueue	queue.h	/^ElemType OutQueue(LinkQueue &HQ)$/;"	f	language:C++	signature:(LinkQueue &HQ)
-OutputBiTree	binary.cpp	/^void OutputBiTree (BiTree t)$/;"	f	language:C++	signature:(BiTree t)
-OutputNo	binary.cpp	/^void OutputNo(BiTree t)$/;"	f	language:C++	signature:(BiTree t)
-PeekQueue	queue.h	/^ElemType *PeekQueue(LinkQueue &HQ)$/;"	f	language:C++	signature:(LinkQueue &HQ)
-QNode	queue.cpp	/^typedef struct QNode$/;"	s	language:C++	file:
-QNode	queue.cpp	/^}QNode,*QueuePtr;$/;"	t	language:C++	typeref:struct:QNode	file:
-QNode	tu.cpp	/^typedef struct QNode$/;"	s	language:C++	file:
-QNode	tu.cpp	/^}QNode,*QueuePtr;$/;"	t	language:C++	typeref:struct:QNode	file:
-QNode::data	queue.cpp	/^  char data;$/;"	m	language:C++	struct:QNode	file:	access:public
-QNode::data	tu.cpp	/^  char data;$/;"	m	language:C++	struct:QNode	file:	access:public
-QNode::next	queue.cpp	/^  struct QNode *next;$/;"	m	language:C++	struct:QNode	typeref:struct:QNode::QNode	file:	access:public
-QNode::next	tu.cpp	/^  struct QNode *next;$/;"	m	language:C++	struct:QNode	typeref:struct:QNode::QNode	file:	access:public
-QueuePtr	queue.cpp	/^}QNode,*QueuePtr;$/;"	t	language:C++	typeref:struct:QNode	file:
-QueuePtr	tu.cpp	/^}QNode,*QueuePtr;$/;"	t	language:C++	typeref:struct:QNode	file:
-REQUEST	Dijkstra.cpp	/^int REQUEST[MAXPROCESS][MAXRESOURCE];$/;"	v	language:C++
-Rear	queue.cpp	/^  QueuePtr Rear;$/;"	m	language:C++	struct:__anon1	file:	access:public
-Rear	tu.cpp	/^  QueuePtr Rear;$/;"	m	language:C++	struct:__anon4	file:	access:public
-Safe	Dijkstra.cpp	/^bool Safe()$/;"	f	language:C++	signature:()
-UINT_MAX	humantree.cpp	4;"	d	language:C++	file:
-__anon1::Front	queue.cpp	/^  QueuePtr Front;$/;"	m	language:C++	struct:__anon1	file:	access:public
-__anon1::Rear	queue.cpp	/^  QueuePtr Rear;$/;"	m	language:C++	struct:__anon1	file:	access:public
-__anon2::a	chess.cpp	/^	unsigned char a:4;$/;"	m	language:C++	struct:__anon2	file:	access:public
-__anon2::b	chess.cpp	/^	unsigned char b:4;$/;"	m	language:C++	struct:__anon2	file:	access:public
-__anon3::AdjMatrix	tu.cpp	/^  int AdjMatrix[Maxsize][Maxsize];$/;"	m	language:C++	struct:__anon3	file:	access:public
-__anon3::arcnum	tu.cpp	/^  int vexnum,arcnum;$/;"	m	language:C++	struct:__anon3	file:	access:public
-__anon3::length	tu.cpp	/^  int length;$/;"	m	language:C++	struct:__anon3	file:	access:public
-__anon3::vexnum	tu.cpp	/^  int vexnum,arcnum;$/;"	m	language:C++	struct:__anon3	file:	access:public
-__anon3::vexs	tu.cpp	/^  char vexs[Maxsize];$/;"	m	language:C++	struct:__anon3	file:	access:public
-__anon4::Front	tu.cpp	/^  QueuePtr Front;$/;"	m	language:C++	struct:__anon4	file:	access:public
-__anon4::Rear	tu.cpp	/^  QueuePtr Rear;$/;"	m	language:C++	struct:__anon4	file:	access:public
-a	chess.cpp	/^	unsigned char a:4;$/;"	m	language:C++	struct:__anon2	file:	access:public
-addEdge	tu.cpp	/^void addEdge(Graph &g,char u,char v)$/;"	f	language:C++	signature:(Graph &g,char u,char v)
-addVertex	tu.cpp	/^void addVertex(Graph &g,char u)$/;"	f	language:C++	signature:(Graph &g,char u)
-arcnum	tu.cpp	/^  int vexnum,arcnum;$/;"	m	language:C++	struct:__anon3	file:	access:public
-arrivetime	queue.h	/^		int arrivetime;    \/\/到达时间$/;"	m	language:C++	struct:job	access:public
-b	chess.cpp	/^	unsigned char b:4;$/;"	m	language:C++	struct:__anon2	file:	access:public
-burst	queue.h	/^		int burst;		   \/\/运行时间$/;"	m	language:C++	struct:job	access:public
-creatGraph	tu.cpp	/^void creatGraph(Graph &g , int n)$/;"	f	language:C++	signature:(Graph &g , int n)
-create	queue.h	/^void create(LinkQueue *x , job job)$/;"	f	language:C++	signature:(LinkQueue *x , job job)
-data	queue.cpp	/^  char data;$/;"	m	language:C++	struct:QNode	file:	access:public
-data	queue.h	/^	ElemType data;$/;"	m	language:C++	struct:LNode	access:public
-data	tu.cpp	/^  char data;$/;"	m	language:C++	struct:QNode	file:	access:public
-date	binary.cpp	/^   char date;$/;"	m	language:C++	struct:BiTNode	file:	access:public
-date	humantree.cpp	/^    char date;$/;"	m	language:C++	struct:BiTNode	file:	access:public
-front	queue.h	/^	LNode *front;   \/\/对首指针$/;"	m	language:C++	struct:LinkQueue	access:public
-function	queue.h	/^void function(LinkQueue *x , int timing)$/;"	f	language:C++	signature:(LinkQueue *x , int timing)
-getNumEdges	tu.cpp	/^int getNumEdges(Graph g)$/;"	f	language:C++	signature:(Graph g)
-getNumVertices	tu.cpp	/^int  getNumVertices(Graph g)$/;"	f	language:C++	signature:(Graph g)
-getPositon	tu.cpp	/^int getPositon(Graph g,char e)$/;"	f	language:C++	signature:(Graph g,char e)
-hasEdge	tu.cpp	/^bool hasEdge(Graph g,char u ,char v)$/;"	f	language:C++	signature:(Graph g,char u ,char v)
-i	chess.cpp	/^}i;$/;"	v	language:C++	typeref:struct:__anon2
-job	queue.h	/^struct job$/;"	s	language:C++
-job::arrivetime	queue.h	/^		int arrivetime;    \/\/到达时间$/;"	m	language:C++	struct:job	access:public
-job::burst	queue.h	/^		int burst;		   \/\/运行时间$/;"	m	language:C++	struct:job	access:public
-job::jobnum	queue.h	/^		int jobnum;        \/\/任务号$/;"	m	language:C++	struct:job	access:public
-job::leavetime	queue.h	/^		int leavetime;	   \/\/离开时间$/;"	m	language:C++	struct:job	access:public
-job::retime	queue.h	/^		int retime;		   \/\/响应时间$/;"	m	language:C++	struct:job	access:public
-job::roundtime	queue.h	/^		int roundtime;     \/\/周转时间 $/;"	m	language:C++	struct:job	access:public
-job::runtime	queue.h	/^		int runtime;	   \/\/已运行时间$/;"	m	language:C++	struct:job	access:public
-jobnum	queue.h	/^		int jobnum;        \/\/任务号$/;"	m	language:C++	struct:job	access:public
-lchild	binary.cpp	/^   struct BiTNode *lchild,*rchild;$/;"	m	language:C++	struct:BiTNode	typeref:struct:BiTNode::BiTNode	file:	access:public
-lchild	humantree.cpp	/^    int parent,lchild,rchild;$/;"	m	language:C++	struct:BiTNode	file:	access:public
-leavetime	queue.h	/^		int leavetime;	   \/\/离开时间$/;"	m	language:C++	struct:job	access:public
-length	tu.cpp	/^  int length;$/;"	m	language:C++	struct:__anon3	file:	access:public
-length1Path	tu.cpp	/^LinkQueue length1Path(Graph g ,LinkQueue q)$/;"	f	language:C++	signature:(Graph g ,LinkQueue q)
-lengthPath	tu.cpp	/^Graph lengthPath(Graph g, char v,int n)$/;"	f	language:C++	signature:(Graph g, char v,int n)
-m	Dijkstra.cpp	/^int m,n;$/;"	v	language:C++
-main	Dijkstra.cpp	/^int main()$/;"	f	language:C++	signature:()
-main	binary.cpp	/^int main()$/;"	f	language:C++	signature:()
-main	chess.cpp	/^int main()$/;"	f	language:C++	signature:()
-main	humantree.cpp	/^int  main()$/;"	f	language:C++	signature:()
-main	main.cpp	/^int main()$/;"	f	language:C++	signature:()
-main	queue.cpp	/^int main()$/;"	f	language:C++	signature:()
-main	tu.cpp	/^int main()$/;"	f	language:C++	signature:()
-n	Dijkstra.cpp	/^int m,n;$/;"	v	language:C++
-next	queue.cpp	/^  struct QNode *next;$/;"	m	language:C++	struct:QNode	typeref:struct:QNode::QNode	file:	access:public
-next	queue.h	/^	LNode *next;$/;"	m	language:C++	struct:LNode	access:public
-next	tu.cpp	/^  struct QNode *next;$/;"	m	language:C++	struct:QNode	typeref:struct:QNode::QNode	file:	access:public
-outputGraph	tu.cpp	/^void outputGraph(Graph g)$/;"	f	language:C++	signature:(Graph g)
-outputQueue	queue.cpp	/^void outputQueue(LinkQueue q)$/;"	f	language:C++	signature:(LinkQueue q)
-p	Dijkstra.cpp	/^int p[MAXPROCESS];$/;"	v	language:C++
-parent	humantree.cpp	/^    int parent,lchild,rchild;$/;"	m	language:C++	struct:BiTNode	file:	access:public
-rchild	binary.cpp	/^   struct BiTNode *lchild,*rchild;$/;"	m	language:C++	struct:BiTNode	typeref:struct:BiTNode::	file:	access:public
-rchild	humantree.cpp	/^    int parent,lchild,rchild;$/;"	m	language:C++	struct:BiTNode	file:	access:public
-rear	queue.h	/^	LNode *rear;    \/\/对尾指针$/;"	m	language:C++	struct:LinkQueue	access:public
-removeEdge	tu.cpp	/^void removeEdge(Graph &g,char u,char v)$/;"	f	language:C++	signature:(Graph &g,char u,char v)
-retime	queue.h	/^		int retime;		   \/\/响应时间$/;"	m	language:C++	struct:job	access:public
-roundtime	queue.h	/^		int roundtime;     \/\/周转时间 $/;"	m	language:C++	struct:job	access:public
-runtime	queue.h	/^		int runtime;	   \/\/已运行时间$/;"	m	language:C++	struct:job	access:public
-select	humantree.cpp	/^void select(BiTree t,int i,int &s1,int &s2)$/;"	f	language:C++	signature:(BiTree t,int i,int &s1,int &s2)
-showdata	Dijkstra.cpp	/^void showdata(int n , int m)$/;"	f	language:C++	signature:(int n , int m)
-validVertex	tu.cpp	/^bool validVertex(Graph g,char v)$/;"	f	language:C++	signature:(Graph g,char v)
-vexnum	tu.cpp	/^  int vexnum,arcnum;$/;"	m	language:C++	struct:__anon3	file:	access:public
-vexs	tu.cpp	/^  char vexs[Maxsize];$/;"	m	language:C++	struct:__anon3	file:	access:public
-weight	humantree.cpp	/^    double  weight;$/;"	m	language:C++	struct:BiTNode	file:	access:public
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLOCATION	Dijkstra.cpp	/^int ALLOCATION[MAXPROCESS][MAXRESOURCE];$/;"	v
+AVAILABLE	Dijkstra.cpp	/^int AVAILABLE[MAXRESOURCE];$/;"	v
+AdjMatrix	tu.cpp	/^  int AdjMatrix[Maxsize][Maxsize];$/;"	m	struct:__anon1	file:	access:public
+AvailCount	opt.cpp	/^int AvailCount = 0;$/;"	v
+Bank	Dijkstra.cpp	/^void Bank()$/;"	f	signature:()
+BiTNode	binary.cpp	/^typedef struct BiTNode$/;"	s	file:
+BiTNode	binary.cpp	/^}BiTNode,*BiTree;$/;"	t	typeref:struct:BiTNode	file:
+BiTNode	humantree.cpp	/^typedef struct BiTNode{$/;"	s	file:
+BiTNode	humantree.cpp	/^}BiTNode,*BiTree;$/;"	t	typeref:struct:BiTNode	file:
+BiTNode::date	binary.cpp	/^   char date;$/;"	m	struct:BiTNode	file:	access:public
+BiTNode::date	humantree.cpp	/^    char date;$/;"	m	struct:BiTNode	file:	access:public
+BiTNode::lchild	binary.cpp	/^   struct BiTNode *lchild,*rchild;$/;"	m	struct:BiTNode	typeref:struct:BiTNode::BiTNode	file:	access:public
+BiTNode::lchild	humantree.cpp	/^    int parent,lchild,rchild;$/;"	m	struct:BiTNode	file:	access:public
+BiTNode::parent	humantree.cpp	/^    int parent,lchild,rchild;$/;"	m	struct:BiTNode	file:	access:public
+BiTNode::rchild	binary.cpp	/^   struct BiTNode *lchild,*rchild;$/;"	m	struct:BiTNode	typeref:struct:BiTNode::	file:	access:public
+BiTNode::rchild	humantree.cpp	/^    int parent,lchild,rchild;$/;"	m	struct:BiTNode	file:	access:public
+BiTNode::weight	humantree.cpp	/^    double  weight;$/;"	m	struct:BiTNode	file:	access:public
+BiTree	binary.cpp	/^}BiTNode,*BiTree;$/;"	t	typeref:struct:BiTNode	file:
+BiTree	humantree.cpp	/^}BiTNode,*BiTree;$/;"	t	typeref:struct:BiTNode	file:
+Block	opt.cpp	/^int Block[10][10];$/;"	v
+BlockSum	opt.cpp	/^	int BlockSum;$/;"	m	struct:Page	file:	access:public
+Choosemin	humantree.cpp	/^int Choosemin(BiTree t,int i)$/;"	f	signature:(BiTree t,int i)
+ClearQueue	cpu.h	/^void ClearQueue(LinkQueue &HQ)$/;"	f	signature:(LinkQueue &HQ)
+CreatBiTree	binary.cpp	/^void CreatBiTree(BiTree &t)$/;"	f	signature:(BiTree &t)
+Create	opt.cpp	/^void Create()$/;"	f	signature:()
+DeQueue	queue.cpp	/^char DeQueue(LinkQueue q)$/;"	f	signature:(LinkQueue q)
+DeQueue	tu.cpp	/^char DeQueue(LinkQueue &q)$/;"	f	signature:(LinkQueue &q)
+DepthBiTree	binary.cpp	/^int DepthBiTree(BiTree t)$/;"	f	signature:(BiTree t)
+EachBlock	opt.cpp	/^int EachBlock[100][100];$/;"	v
+ElemType	cpu.h	/^typedef job ElemType;$/;"	t
+EmptyQueue	cpu.h	/^bool EmptyQueue(LinkQueue &HQ)$/;"	f	signature:(LinkQueue &HQ)
+EnQueue	cpu.h	/^void EnQueue(LinkQueue &HQ , ElemType item)$/;"	f	signature:(LinkQueue &HQ , ElemType item)
+EnQueue	queue.cpp	/^void EnQueue(LinkQueue &q,char e)$/;"	f	signature:(LinkQueue &q,char e)
+EnQueue	tu.cpp	/^void EnQueue(LinkQueue &q,char e)$/;"	f	signature:(LinkQueue &q,char e)
+FINISH	Dijkstra.cpp	/^bool FINISH[MAXPROCESS];$/;"	v
+Front	queue.cpp	/^  QueuePtr Front;$/;"	m	struct:__anon4	file:	access:public
+Front	tu.cpp	/^  QueuePtr Front;$/;"	m	struct:__anon2	file:	access:public
+Graph	tu.cpp	/^}Graph;$/;"	t	typeref:struct:__anon1	file:
+HuffmanCode	humantree.cpp	/^void HuffmanCode(BiTree &HT,char HC[][100],double *w,int n)$/;"	f	signature:(BiTree &HT,char HC[][100],double *w,int n)
+HuffmanCreate	humantree.cpp	/^void HuffmanCreate(BiTree &HT,double *w,int n)$/;"	f	signature:(BiTree &HT,double *w,int n)
+IDnum	opt.cpp	/^	int IDnum;$/;"	m	struct:Page	file:	access:public
+Init	Dijkstra.cpp	/^void Init()$/;"	f	signature:()
+InitBiTree	binary.cpp	/^void InitBiTree (BiTree &t)$/;"	f	signature:(BiTree &t)
+InitGraph	tu.cpp	/^void InitGraph(Graph &g, int n)$/;"	f	signature:(Graph &g, int n)
+InitQueue	cpu.h	/^void InitQueue(LinkQueue &HQ)$/;"	f	signature:(LinkQueue &HQ)
+InitQueue	queue.cpp	/^void InitQueue(LinkQueue &q)$/;"	f	signature:(LinkQueue &q)
+InitQueue	tu.cpp	/^void InitQueue(LinkQueue &q)$/;"	f	signature:(LinkQueue &q)
+InputQueue	queue.cpp	/^void InputQueue(LinkQueue &q)$/;"	f	signature:(LinkQueue &q)
+InsertChild	binary.cpp	/^void InsertChild(BiTree &p,BiTree &c,int i)$/;"	f	signature:(BiTree &p,BiTree &c,int i)
+LNode	cpu.h	/^struct LNode$/;"	s
+LNode::data	cpu.h	/^	ElemType data;$/;"	m	struct:LNode	access:public
+LNode::next	cpu.h	/^	LNode *next;$/;"	m	struct:LNode	access:public
+LinkQueue	cpu.h	/^struct LinkQueue$/;"	s
+LinkQueue	queue.cpp	/^}LinkQueue;$/;"	t	typeref:struct:__anon4	file:
+LinkQueue	tu.cpp	/^}LinkQueue;$/;"	t	typeref:struct:__anon2	file:
+LinkQueue::front	cpu.h	/^	LNode *front;   \/\/对首指针$/;"	m	struct:LinkQueue	access:public
+LinkQueue::rear	cpu.h	/^	LNode *rear;    \/\/对尾指针$/;"	m	struct:LinkQueue	access:public
+MAX	Dijkstra.cpp	/^int MAX[MAXPROCESS][MAXRESOURCE];$/;"	v
+MAXPROCESS	Dijkstra.cpp	8;"	d	file:
+MAXRESOURCE	Dijkstra.cpp	9;"	d	file:
+Maxsize	tu.cpp	2;"	d	file:
+NEED	Dijkstra.cpp	/^int NEED[MAXPROCESS][MAXRESOURCE];$/;"	v
+OutQueue	cpu.h	/^ElemType OutQueue(LinkQueue &HQ)$/;"	f	signature:(LinkQueue &HQ)
+OutputBiTree	binary.cpp	/^void OutputBiTree (BiTree t)$/;"	f	signature:(BiTree t)
+OutputNo	binary.cpp	/^void OutputNo(BiTree t)$/;"	f	signature:(BiTree t)
+Page	opt.cpp	/^typedef struct Page$/;"	s	file:
+Page	opt.cpp	/^}Page;$/;"	t	typeref:struct:Page	file:
+Page::BlockSum	opt.cpp	/^	int BlockSum;$/;"	m	struct:Page	file:	access:public
+Page::IDnum	opt.cpp	/^	int IDnum;$/;"	m	struct:Page	file:	access:public
+Page::next	opt.cpp	/^	struct Page *next;$/;"	m	struct:Page	typeref:struct:Page::Page	file:	access:public
+PeekQueue	cpu.h	/^ElemType *PeekQueue(LinkQueue &HQ)$/;"	f	signature:(LinkQueue &HQ)
+QNode	queue.cpp	/^typedef struct QNode$/;"	s	file:
+QNode	queue.cpp	/^}QNode,*QueuePtr;$/;"	t	typeref:struct:QNode	file:
+QNode	tu.cpp	/^typedef struct QNode$/;"	s	file:
+QNode	tu.cpp	/^}QNode,*QueuePtr;$/;"	t	typeref:struct:QNode	file:
+QNode::data	queue.cpp	/^  char data;$/;"	m	struct:QNode	file:	access:public
+QNode::data	tu.cpp	/^  char data;$/;"	m	struct:QNode	file:	access:public
+QNode::next	queue.cpp	/^  struct QNode *next;$/;"	m	struct:QNode	typeref:struct:QNode::QNode	file:	access:public
+QNode::next	tu.cpp	/^  struct QNode *next;$/;"	m	struct:QNode	typeref:struct:QNode::QNode	file:	access:public
+QueuePtr	queue.cpp	/^}QNode,*QueuePtr;$/;"	t	typeref:struct:QNode	file:
+QueuePtr	tu.cpp	/^}QNode,*QueuePtr;$/;"	t	typeref:struct:QNode	file:
+REQUEST	Dijkstra.cpp	/^int REQUEST[MAXPROCESS][MAXRESOURCE];$/;"	v
+Rear	queue.cpp	/^  QueuePtr Rear;$/;"	m	struct:__anon4	file:	access:public
+Rear	tu.cpp	/^  QueuePtr Rear;$/;"	m	struct:__anon2	file:	access:public
+Safe	Dijkstra.cpp	/^bool Safe()$/;"	f	signature:()
+UINT_MAX	humantree.cpp	4;"	d	file:
+__anon1::AdjMatrix	tu.cpp	/^  int AdjMatrix[Maxsize][Maxsize];$/;"	m	struct:__anon1	file:	access:public
+__anon1::arcnum	tu.cpp	/^  int vexnum,arcnum;$/;"	m	struct:__anon1	file:	access:public
+__anon1::length	tu.cpp	/^  int length;$/;"	m	struct:__anon1	file:	access:public
+__anon1::vexnum	tu.cpp	/^  int vexnum,arcnum;$/;"	m	struct:__anon1	file:	access:public
+__anon1::vexs	tu.cpp	/^  char vexs[Maxsize];$/;"	m	struct:__anon1	file:	access:public
+__anon2::Front	tu.cpp	/^  QueuePtr Front;$/;"	m	struct:__anon2	file:	access:public
+__anon2::Rear	tu.cpp	/^  QueuePtr Rear;$/;"	m	struct:__anon2	file:	access:public
+__anon3::a	chess.cpp	/^	unsigned char a:4;$/;"	m	struct:__anon3	file:	access:public
+__anon3::b	chess.cpp	/^	unsigned char b:4;$/;"	m	struct:__anon3	file:	access:public
+__anon4::Front	queue.cpp	/^  QueuePtr Front;$/;"	m	struct:__anon4	file:	access:public
+__anon4::Rear	queue.cpp	/^  QueuePtr Rear;$/;"	m	struct:__anon4	file:	access:public
+a	chess.cpp	/^	unsigned char a:4;$/;"	m	struct:__anon3	file:	access:public
+addEdge	tu.cpp	/^void addEdge(Graph &g,char u,char v)$/;"	f	signature:(Graph &g,char u,char v)
+addVertex	tu.cpp	/^void addVertex(Graph &g,char u)$/;"	f	signature:(Graph &g,char u)
+arcnum	tu.cpp	/^  int vexnum,arcnum;$/;"	m	struct:__anon1	file:	access:public
+arrivetime	cpu.h	/^		int arrivetime;    \/\/到达时间$/;"	m	struct:job	access:public
+b	chess.cpp	/^	unsigned char b:4;$/;"	m	struct:__anon3	file:	access:public
+burst	cpu.h	/^		int burst;		   \/\/运行时间$/;"	m	struct:job	access:public
+creatGraph	tu.cpp	/^void creatGraph(Graph &g , int n)$/;"	f	signature:(Graph &g , int n)
+create	cpu.h	/^void create(LinkQueue *x , job job)$/;"	f	signature:(LinkQueue *x , job job)
+data	cpu.h	/^	ElemType data;$/;"	m	struct:LNode	access:public
+data	queue.cpp	/^  char data;$/;"	m	struct:QNode	file:	access:public
+data	tu.cpp	/^  char data;$/;"	m	struct:QNode	file:	access:public
+date	binary.cpp	/^   char date;$/;"	m	struct:BiTNode	file:	access:public
+date	humantree.cpp	/^    char date;$/;"	m	struct:BiTNode	file:	access:public
+front	cpu.h	/^	LNode *front;   \/\/对首指针$/;"	m	struct:LinkQueue	access:public
+function	cpu.h	/^void function(LinkQueue *x , int timing)$/;"	f	signature:(LinkQueue *x , int timing)
+getNumEdges	tu.cpp	/^int getNumEdges(Graph g)$/;"	f	signature:(Graph g)
+getNumVertices	tu.cpp	/^int  getNumVertices(Graph g)$/;"	f	signature:(Graph g)
+getPositon	tu.cpp	/^int getPositon(Graph g,char e)$/;"	f	signature:(Graph g,char e)
+hasEdge	tu.cpp	/^bool hasEdge(Graph g,char u ,char v)$/;"	f	signature:(Graph g,char u ,char v)
+i	chess.cpp	/^}i;$/;"	v	typeref:struct:__anon3
+init	opt.cpp	/^void init()$/;"	f	signature:()
+job	cpu.h	/^struct job$/;"	s
+job::arrivetime	cpu.h	/^		int arrivetime;    \/\/到达时间$/;"	m	struct:job	access:public
+job::burst	cpu.h	/^		int burst;		   \/\/运行时间$/;"	m	struct:job	access:public
+job::jobnum	cpu.h	/^		int jobnum;        \/\/任务号$/;"	m	struct:job	access:public
+job::leavetime	cpu.h	/^		int leavetime;	   \/\/离开时间$/;"	m	struct:job	access:public
+job::retime	cpu.h	/^		int retime;		   \/\/响应时间$/;"	m	struct:job	access:public
+job::roundtime	cpu.h	/^		int roundtime;     \/\/周转时间 $/;"	m	struct:job	access:public
+job::runtime	cpu.h	/^		int runtime;	   \/\/已运行时间$/;"	m	struct:job	access:public
+jobnum	cpu.h	/^		int jobnum;        \/\/任务号$/;"	m	struct:job	access:public
+lchild	binary.cpp	/^   struct BiTNode *lchild,*rchild;$/;"	m	struct:BiTNode	typeref:struct:BiTNode::BiTNode	file:	access:public
+lchild	humantree.cpp	/^    int parent,lchild,rchild;$/;"	m	struct:BiTNode	file:	access:public
+leavetime	cpu.h	/^		int leavetime;	   \/\/离开时间$/;"	m	struct:job	access:public
+length	tu.cpp	/^  int length;$/;"	m	struct:__anon1	file:	access:public
+length1Path	tu.cpp	/^LinkQueue length1Path(Graph g ,LinkQueue q)$/;"	f	signature:(Graph g ,LinkQueue q)
+lengthPath	tu.cpp	/^Graph lengthPath(Graph g, char v,int n)$/;"	f	signature:(Graph g, char v,int n)
+m	Dijkstra.cpp	/^int m,n;$/;"	v
+main	Dijkstra.cpp	/^int main()$/;"	f	signature:()
+main	binary.cpp	/^int main()$/;"	f	signature:()
+main	chess.cpp	/^int main()$/;"	f	signature:()
+main	cpu.cpp	/^int main()$/;"	f	signature:()
+main	humantree.cpp	/^int  main()$/;"	f	signature:()
+main	queue.cpp	/^int main()$/;"	f	signature:()
+main	tu.cpp	/^int main()$/;"	f	signature:()
+n	Dijkstra.cpp	/^int m,n;$/;"	v
+next	cpu.h	/^	LNode *next;$/;"	m	struct:LNode	access:public
+next	opt.cpp	/^	struct Page *next;$/;"	m	struct:Page	typeref:struct:Page::Page	file:	access:public
+next	queue.cpp	/^  struct QNode *next;$/;"	m	struct:QNode	typeref:struct:QNode::QNode	file:	access:public
+next	tu.cpp	/^  struct QNode *next;$/;"	m	struct:QNode	typeref:struct:QNode::QNode	file:	access:public
+outputGraph	tu.cpp	/^void outputGraph(Graph g)$/;"	f	signature:(Graph g)
+outputQueue	queue.cpp	/^void outputQueue(LinkQueue q)$/;"	f	signature:(LinkQueue q)
+p	Dijkstra.cpp	/^int p[MAXPROCESS];$/;"	v
+page	opt.cpp	/^Page *page=NULL;$/;"	v
+parent	humantree.cpp	/^    int parent,lchild,rchild;$/;"	m	struct:BiTNode	file:	access:public
+rchild	binary.cpp	/^   struct BiTNode *lchild,*rchild;$/;"	m	struct:BiTNode	typeref:struct:BiTNode::	file:	access:public
+rchild	humantree.cpp	/^    int parent,lchild,rchild;$/;"	m	struct:BiTNode	file:	access:public
+rear	cpu.h	/^	LNode *rear;    \/\/对尾指针$/;"	m	struct:LinkQueue	access:public
+removeEdge	tu.cpp	/^void removeEdge(Graph &g,char u,char v)$/;"	f	signature:(Graph &g,char u,char v)
+retime	cpu.h	/^		int retime;		   \/\/响应时间$/;"	m	struct:job	access:public
+roundtime	cpu.h	/^		int roundtime;     \/\/周转时间 $/;"	m	struct:job	access:public
+runtime	cpu.h	/^		int runtime;	   \/\/已运行时间$/;"	m	struct:job	access:public
+select	humantree.cpp	/^void select(BiTree t,int i,int &s1,int &s2)$/;"	f	signature:(BiTree t,int i,int &s1,int &s2)
+showdata	Dijkstra.cpp	/^void showdata(int n , int m)$/;"	f	signature:(int n , int m)
+validVertex	tu.cpp	/^bool validVertex(Graph g,char v)$/;"	f	signature:(Graph g,char v)
+vexnum	tu.cpp	/^  int vexnum,arcnum;$/;"	m	struct:__anon1	file:	access:public
+vexs	tu.cpp	/^  char vexs[Maxsize];$/;"	m	struct:__anon1	file:	access:public
+weight	humantree.cpp	/^    double  weight;$/;"	m	struct:BiTNode	file:	access:public
